@@ -29,10 +29,10 @@ jobs:
         docker build -t farman82/devops-hello:latest .
         docker push farman82/devops-hello:latest
 
-    - name: Set up kubectl
-      uses: azure/setup-kubectl@v3
-      with:
-        version: 'latest'
+    # - name: Set up kubectl
+    #   uses: azure/setup-kubectl@v3
+    #   with:
+    #     version: 'latest'
 
     - name: Deploy to Kubernetes
       run: |
