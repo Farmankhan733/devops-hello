@@ -37,3 +37,4 @@ jobs:
     - name: Deploy to Kubernetes
       run: |
         kubectl set image deployment/devops-hello-deployment devops-hello=farman82/devops-hello:latest
+        
