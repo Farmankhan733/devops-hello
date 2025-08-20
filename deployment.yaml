@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: devops-hello
-        image: devops-hello
+        image: farman82/devops-hello:latest   # ✅ DockerHub image
         ports:
         - containerPort: 5000
